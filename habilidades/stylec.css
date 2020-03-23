@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@charset "utf-8";
+/* CSS Document */
+
+h1 {text-align:center;
+	color:#EB4DA0;
+	font-family:'Sen', sans-serif;
+	font-size:8}
+ th{t-align:center;
+	color:#EB4DA0;
+	font-family:'Sen', sans-serif;
+	font-size:1em}
+td{text-align:center;
+	color: #EB4DA0;
+	font-family:'Montserrat', sans-serif;
+	font-size:1em}
+table {
+   width: 100%;
+   border: 1px solid #EB4DA0;
+}
+table {
+   width: 100%;
+   border: 1px solid #EB4DA0;
+   text-align: left;
+   border-collapse: collapse;
+   margin: 0 0 1em 0;
+   caption-side: top;
+}
+caption, td, th {
+   padding: 0.3em;
+}
+th, td {
+   border-bottom: 1px solid #999;
+   width: 25%;
+}
+caption {
+   font-weight: bold;
+   font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ffffff;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
